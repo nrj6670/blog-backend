@@ -35,7 +35,7 @@ const get = (request, response) => {
     ]
         
   
-    res.send(tourismdata);
+    response.send(tourismdata);
 }
 
 module.exports.gettourismDetails = get

@@ -41,7 +41,7 @@ const get = (request, response) => {
         
     ]
   
-    res.send(fitnessdata);
+    response.send(fitnessdata);
 }
 
 module.exports.getfitnessDetails = get

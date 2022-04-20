@@ -126,7 +126,7 @@ const get = (request, response) => {
         },
     ]
   
-    res.send(homedata);
+    response.send(homedata);
 }
 
 module.exports.gethomeDetails = get

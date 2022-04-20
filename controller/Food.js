@@ -38,7 +38,7 @@ const get = (request, response) => {
         },
     ]
   
-    res.send(fooddata);
+    response.send(fooddata);
 }
 
 module.exports.getfoodDetails = get

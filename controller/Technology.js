@@ -31,7 +31,7 @@ const get = (request, response) => {
         },
     ]
   
-    res.send(technologydata);
+    response.send(technologydata);
 }
 
 module.exports.gettechnologyDetails = get
