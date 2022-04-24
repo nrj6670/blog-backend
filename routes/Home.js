@@ -1,7 +1,7 @@
 const express = require("express");
 const homeController = require("../controller/Home");
-const homeRouter = express.Router();
+const router = express.Router();
 
-homeRouter.route("/").get(homeController.gethomeDetails)
+router.get("/",homeController.getHomeData)
 
-module.exports = homeRouter
+module.exports = router
